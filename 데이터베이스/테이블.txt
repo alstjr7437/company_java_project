@@ -1,0 +1,19 @@
+회사
+company
+
+사원	(번호 / 사원 번호/ 이름 / 직책 / 입사일 / 전화 / 이메일 / 주민등록번호 / 주소 
+	/ 연봉 / 개인 평가 / 직속상관 / 비밀번호 / 부서 번호 / 팀 번호
+employee	(snum, eno, ename, position , hiredate, hp, eMail, id
+	, address, salary, evaluation, manager, password , dno , tno)
+
+부서	(부서 번호 / 부서 이름 / 직원 번호 / 팀 번호)
+department(dno / dname / eno / tno)
+
+팀	(팀 번호 / 팀 이름 / 부서 번호 / 직원 번호 / 프로젝트 번호)
+team	(tno / tname / dno / eno / pno
+
+프로젝트	(프로젝트 번호 / 프로젝트 이름 / 세부 내용 / 날짜 / 종료 여부 / 팀 번호)
+project	(pno / pname / content / date / finish / tno)
+
+발표하기전에
+소개
